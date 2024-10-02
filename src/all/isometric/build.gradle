@@ -1,0 +1,12 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+ext {
+    extName = 'IsometricSource'
+    pkgNameSuffix = 'all.isometric'
+    extClass = '.IsometricSourceFactory'
+    extVersionCode = 14
+    isNsfw = false
+}
+
+apply from: "$rootDir/common.gradle"
